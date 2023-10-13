@@ -15,7 +15,4 @@ jobs:
          cmd /c down.bat
 
       - name: Time Counter
-        timeout-minutes: 1
-
-      -  name: hello
-         run: python time.py
+        run: python time.py
